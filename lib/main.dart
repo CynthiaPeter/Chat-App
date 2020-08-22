@@ -8,15 +8,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.dark().copyWith(
-        textTheme: TextTheme(
-          bodyText1: TextStyle(color:Colors.black54),
-        ),
-      ),
       debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Splash(),
               ),
+              
             );
           }
         }
@@ -51,6 +47,9 @@ class MyApp extends StatelessWidget {
    Widget build(BuildContext context) {
      return Scaffold(
        body: SplashScreen()
+       
      );
+
+     
    }
  }
